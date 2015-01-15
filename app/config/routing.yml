@@ -1,0 +1,7 @@
+redacted_passwordless:
+    resource: "@RedactedPasswordlessBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
